@@ -1,7 +1,5 @@
 # Git Cheat Sheet
 
-Date de création: 11 mars 2025 02:59
-Ajouté par: N0M3R5Y
 
 ## 📌 Configuration de Git
 
