@@ -153,4 +153,3 @@ ping 8.8.8.8
 
 🔥 **Ce cheat sheet t’aide à tirer le maximum de `nslookup` pour récupérer des infos DNS !**
 
-Tu veux automatiser encore plus de tests ou intégrer ça dans un script avancé ? 🚀

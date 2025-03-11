@@ -146,8 +146,6 @@ whois -h whois.verisign-grs.com example.com
 
 🔥 **Ce cheat sheet te permet d'exploiter au maximum la commande `whois` pour récupérer un max d’infos !**
 
-Tu veux automatiser des vérifications spécifiques ou intégrer ça dans un script plus avancé ? 🚀
-
 ```
 
 ```
