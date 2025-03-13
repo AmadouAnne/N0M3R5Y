@@ -58,3 +58,15 @@ echo "✅ Wayback Machine terminé."
 echo "🔍 6. OSINT (Emails, réseaux sociaux, fuites de données)"
 theHarvester -d $cible -b all -f theHarvester_results.txt
 echo "✅ OSINT terminé."
+
+echo "🔍 5. Spiderfoot"
+spiderfoot -s $cible -o csv > spiderfoot_results.csv
+echo "✅ Spiderfoot terminé."
+
+echo "🔍 6. Extraction de métadonnées (Metagoofil)"
+metagoofil -d $cible -t pdf,doc,xls -o metagoofil_results/
+echo "✅ Metagoofil terminé."
+
+# Résumé final
+echo "🎯 Scan terminé ! Les résultats sont enregistrés dans passive_$cible"
+
